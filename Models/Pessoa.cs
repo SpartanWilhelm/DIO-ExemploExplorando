@@ -22,6 +22,7 @@ namespace ExemploExplorando.Models
                 _nome = value;
             }
         }
+        public string Sobrenomne { get; set; }
         public int Idade 
         { 
             get => _idade;
