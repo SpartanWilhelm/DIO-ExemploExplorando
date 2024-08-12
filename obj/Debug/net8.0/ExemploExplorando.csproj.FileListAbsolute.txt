@@ -12,3 +12,4 @@ C:\Users\clgui\source\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorand
 C:\Users\clgui\source\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
 C:\Users\clgui\source\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\clgui\source\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
+C:\Users\clgui\source\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
