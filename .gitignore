@@ -3,3 +3,5 @@ bin/
 
 # Ignorar a pasta obj
 obj/
+
+ExemploExplorando.generated.sln
