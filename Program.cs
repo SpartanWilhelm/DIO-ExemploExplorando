@@ -2,14 +2,19 @@
 using System.Globalization;
 using Newtonsoft.Json;
 
-string conteudoArquivo = File.ReadAllText(Path.Combine("Arquivos/vendas.json"));
+Corrente c = new Corrente();
+c.Creditar(500);
+c.ExibirSaldo();
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-foreach (Venda venda in listaVenda)
-{
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
-}
+// string conteudoArquivo = File.ReadAllText(Path.Combine("Arquivos/vendas.json"));
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// foreach (Venda venda in listaVenda)
+// {
+//     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+// }
 
 // //site para validação Json: https://codebeautify.org/jsonviewer
 
